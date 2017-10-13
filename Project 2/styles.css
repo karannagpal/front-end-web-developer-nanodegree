@@ -1,0 +1,37 @@
+.card
+{
+  border: solid 2px #ccc;
+  margin: 5px;
+  padding: 12px;
+  width: 310px;
+}
+
+.img
+{
+  border-radius: 10px;
+}
+
+
+.info
+{
+  border: solid 2px #ccc;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.fact
+{
+  font-style: italic;
+}
+
+.list
+{
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.label
+{
+  font-weight: bold;
+}
