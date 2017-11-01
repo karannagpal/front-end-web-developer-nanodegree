@@ -1,0 +1,32 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #2d3c49;
+}
+
+.logo
+{
+    width: 160px;
+    height: auto;
+    padding: 2px;
+}
+
+.round
+{
+    border-radius: 2px;
+}
+
+h1
+{
+    font-size: 42px;
+}
+
+.title-text
+{
+    font-weight: 100;
+}
+
+.dim
+{
+    color: #7d97ad;
+}
