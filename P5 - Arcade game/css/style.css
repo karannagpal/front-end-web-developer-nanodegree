@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    align-content: center;
+}
+
+.footer {
+	font-family: monospace;
+	font-weight: 100;
+	display: flex;
+}
+
+.scoreboard {
+	color: #cce;
+	border-radius: 5px;
+	border: solid 1px;
+	width: 30%;
+	min-width: 200px;
+	margin: auto;
+	background-color: #444;
+}
+
+.rules {
+	margin: auto;
+	width: 15%;
+	padding: 0.5em;
+	min-width: 200px;
+	background-color: lightgrey;
+	border: solid 1px;
+	color: #444;
+}
+
+.info {
+	margin: auto;
+	padding: 0.5em;
+	width: 15%;
+	min-width: 200px;
+	border: solid 1px;
+	color: #444;
+}
