@@ -7,7 +7,7 @@ Some of the Technologies used in this project are:
 2. CSS
 3. JavaScript
 
-SOme other technologies include:
+Some other technologies include:
 * JSON
 * jQuery
 * Google Maps API
