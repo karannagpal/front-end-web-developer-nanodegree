@@ -1,0 +1,52 @@
+body {
+    font-family: cursive;
+    background-color: #444;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.head {
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-family: 'Poiret One', cursive;
+    height: 100px;
+}
+
+.sidebar {
+    padding: 10px;
+    margin: auto;
+}
+
+.gmap {
+    height: 500px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.link {
+    color: #47a;
+}
+
+.list {
+    font-size: 20px;
+    border-bottom: 1px #444 solid;
+    border-top: 1px #444 solid;
+}
+h3 {
+    font-size: 16px;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+.credits {
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    color: #888;
+}

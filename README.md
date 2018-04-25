@@ -9,7 +9,7 @@ Projects in Front-End Web Developer Nanodegree from Udacity
 * Project 5 - Arcade game
 * Project 6 - Website optimisation
 * Project 7 - Neighbourhood maps
-* Project 8 - Feed reader
+* Project 8 - Feed reader testing
 
 Additional Project:
 Memory Game

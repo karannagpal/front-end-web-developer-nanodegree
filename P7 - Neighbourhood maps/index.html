@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Neighbourhood Map</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap-min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!--insert some googlefonts-->
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua" rel="stylesheet">
+        <script src="js/jquery-min.js"></script>
+        <script src="js/ko-min.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 head">
+                    <h1>The New York Voyager</h1>
+                </div>
+            </div>
+            <div class="row main">
+                <div class="col-md-3 sidebar">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search" data-bind="value:inputText, valueUpdate: 'afterkeydown', event: {keyup: filtersearch}">
+                    </div>
+                    <ul class="navbar-inverse nav" data-bind="foreach:locations">
+                        <li class="list"><a data-bind="visible:show, event:{click:$parent.selectAll}, text:title" class="link"></a></li>
+                    </ul>
+                    <ul class="credits navbar nav">
+                        <li>Ratings and images are powered by <a class="link" href="https://developer.foursquare.com/docs/venues/search" target="_blank">Foursquare</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-9 gmap" id="map"></div>
+            </div>
+        </div>
+        <!--scripts for map-->
+        <script src="js/main.js"></script>
+        <script src="js/loc.js" asynch defer></script>
+        <script src="js/map.js" asynch defer></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAs0nFtiJ_IJWKptau_7RgQRV18Dh-j9FQ&callback=initMap" async defer onerror="gmapError()">
+            //google maps js api key    	
+        </script>
+    </body>
+</html>
